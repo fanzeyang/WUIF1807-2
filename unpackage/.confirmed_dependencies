@@ -1,0 +1,54 @@
+{
+	"index.html": {
+		"resources": [
+			"img/我的-2拷贝3@2x.png",
+			"img/搜索@2x.png",
+			"img/图层3@2x.png",
+			"img/医药健康@2x.png",
+			"img/经典案例_五角星_收藏后@2x.png",
+			"img/图层1@2x.png",
+			"img/美食@2x.png",
+			"img/订单拷贝2@2x.png",
+			"img/浪漫鲜花@2x.png",
+			"img/图层2@2x.png",
+			"img/排序-下拷贝@2x.png",
+			"img/排序-下@2x.png",
+			"img/筛选@2x.png",
+			"img/发现拷贝3@2x.png",
+			"img/矩形8拷贝@2x.png",
+			"img/首页拷贝3@2x.png",
+			"img/果蔬生鲜@2x.png",
+			"img/披萨@2x.png",
+			"img/矩形8@2x.png",
+			"img/商超便利@2x.png",
+			"img/汉堡@2x.png",
+			"img/经典案例_空五角星_收藏@2x.png",
+			"img/甜品饮品@2x.png"
+		],
+		"refer": [
+			"shoplist.html"
+		]
+	},
+	"shoplist.html": {
+		"resources": [
+			"img/排序-下拷贝@2x.png",
+			"img/排序-下@2x.png",
+			"img/筛选@2x.png",
+			"img/经典案例_五角星_收藏后@2x.png",
+			"img/经典案例_空五角星_收藏@2x.png"
+		],
+		"refer": [
+			"xq.html",
+			"index.html"
+		]
+	},
+	"xq.html": {
+		"resources": [
+			"img/排序-下@2x.png",
+			"img/图层3@2x.png"
+		],
+		"refer": [
+			"shoplist.html"
+		]
+	}
+}

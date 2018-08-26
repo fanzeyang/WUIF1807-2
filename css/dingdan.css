@@ -1,0 +1,59 @@
+		* {
+    		margin: 0;
+    		padding: 0;
+    		box-sizing: border-box;
+    	}
+    	.header {
+    		width: 100%;
+			height: 0.88rem;
+			line-height: 0.88rem;
+			color: white;
+			font-size: 0.3rem;
+			font-weight: bold;
+			text-align: center;
+			background-image: linear-gradient(90deg, #4579ff 0%, #42fffd 100%);
+    	}
+    	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		.footer {
+			width: 100%;
+			height: 1.01rem;
+			background-color: white;
+			position: fixed;
+			bottom: 0;
+		}
+		.footer>ul {
+			width: 100%;
+			height: 1.01rem;
+			list-style: none;
+			text-align: center;
+		}
+		.footer>ul>li {
+			width: 25%;
+			height: 1.01rem;
+			float: left;
+		}
+		.footer>ul>li>a{
+			display: block;
+			text-decoration: none;
+		}
+		.footer>ul>li>a>img{
+			width: 0.42rem;
+			height: 0.61rem;
+			margin-bottom: 0.175rem;
+		}

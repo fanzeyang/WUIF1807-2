@@ -1,0 +1,231 @@
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		.header {
+			width: 100%;
+			height: 1.43rem;
+			background-image: linear-gradient(90deg, #4579ff 0%, #42fffd 100%);
+		}
+		.header>.l {
+			width: 0.3rem;
+			height: 0.3rem;
+			float: left;
+			margin-left: 0.24rem;
+			margin-top: 0.4rem;
+		}
+		.header>.l>a>img {
+			width: 0.3rem;
+			height: 0.4rem;
+			float: left;
+		}
+		.ti {
+			width: 100%;
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			margin-top: -0.5rem;
+			text-align: center;
+		}
+		.ti>img:first-child {
+			width: 1.63rem;
+			height: 1.63rem;
+		}
+		.ti>h3 {
+			font-size: 0.26rem;
+		}
+		.ti>p {
+			font-size: 0.14rem;
+			color: rgba(0,0,0,0.2);
+		}
+		.fenge {
+			width: 100%;
+			height: 0.24rem;
+			background-color: lightgrey;
+			margin-top: 4.1rem;
+		}
+		.catalog {
+			width: 100%;
+			padding-left: 0.24rem;
+    		padding-right: 0.24rem;	
+    		background-color: white;
+		}
+		.catalog ul {
+				list-style: none;
+				width: 100%;
+				height: 0.5rem;
+				margin-top: 0.3rem;
+				text-align: center;
+		}
+		.catalog>ul>li {
+			margin-left: 1.3rem;
+			height: 0.5rem;
+			border-right: 1px solid rgba(0,0,0,0.05);
+			float: left;
+		}
+		.catalog>ul>li>a {
+			height: 0.4rem;
+			display: block;
+			text-decoration: none;
+			color: #000000;
+			font-size: 0.22rem;
+		}
+		.catalog>ul>li.hot>a {
+			border-bottom: 2px solid lightblue;
+		}
+		.da {
+			width: 100%;
+			height: 8rem;
+			padding-right: 0.24rem;
+		}
+		.da>.zuo {
+			width: 20.8%;
+			height: 8rem;
+			float: left;
+			overflow-y: auto;
+		}
+		.da>.zuo::-webkit-scrollbar{
+			width: 0;
+		}
+		.da>.you {
+			width: 79.2%;
+			height: 8rem;
+			overflow-y: auto;
+			float: right;
+			padding-left: 0.24rem;
+			padding-top: 0.24rem;
+		}
+		.da>.you::-webkit-scrollbar{
+			width: 0;
+		}
+		.da>.zuo>ul {
+			width: 100%;
+			list-style: none;
+		}
+		.da>.zuo>ul>li {
+			width: 100%;
+			height: 0.98rem;
+			text-align: center;
+			background-color: white;
+		}
+		.da>.zuo>ul>li.hotpot {
+			background-image: linear-gradient(90deg, #4579ff 0%, #42fffd 100%);
+		}
+		.da>.zuo>ul>li>a {
+			display: block;
+			line-height: 0.98rem;
+			text-decoration: none;
+			font-size: 0.16rem;
+			color: lightgrey;
+		}
+		.da>.zuo>ul>li.hotpot>a {
+			color: white;
+		}
+		.you>ul {
+			width: 100%;
+			list-style: none;
+		}
+		.you>ul>li {
+			width: 100%;
+			height: 1.4rem;
+			margin-bottom: 0.24rem;
+		}
+		.you>ul>li>.youzuo {
+			width: 36.3%;
+			height: 100%;
+			float: left;
+		}
+		.you>ul>li>.youyou {
+			width: 63.7%;
+			padding-left: 0.24rem;
+			float: right;
+		}
+		.youyou>p {
+			font-size: 0.16rem;
+			font-weight: 600;
+		}
+		.youyou>p:nth-child(1){
+			margin-bottom: 0.2rem;
+		}
+		.youyou>p:nth-child(2){
+			color: lightgrey;
+		}
+		.youyou>p:nth-child(3) {
+			color: lightcoral;
+		}
+		.youyou>div {
+			width: 100%;
+		}
+		.youyou>div>.m{
+			float: left;
+		}
+		.youyou>div>.m>p {
+			font-size: 0.16rem;
+			color: lightcoral;
+		}
+		.youyou>div>.m>p>del {
+			font-size: 0.14rem;
+			color: lightgray;
+		}
+		.youyou>div>.op {
+			height: 0.4rem;
+			float: right;
+		}
+		.youyou>div>.op>img {
+			display: block;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		.footer {
+			width: 100%;
+			height: 1.01rem;
+			background-color: red;
+			position: fixed;
+			bottom: 0;
+		}
+		.footer>.manjian {
+			background-color: rgb(255,255,205);
+			text-align: center;
+			height: 30%;
+			width: 100%;
+			font-size: 0.14rem;
+			color: lightgray;
+		}
+		.footer>.gou {
+			width: 100%;
+			height: 70%;
+			position: relative;
+		}
+		.footer>.gou>img {
+			width: 1rem;
+			height: 1rem;
+			position: absolute;
+			top: -0.3rem;
+			left: 0.24rem;
+		}
+		.footer>.gou {
+			font-size: 0.2rem;
+			text-align: center;
+			line-height: 0.7rem;
+			background-color: darkslategrey;
+			color: white;
+		}
+		.footer>.gou>div {
+			width: 20%;
+			height: 100%;
+			float: right;
+			background-color: lightgrey;
+			color: white;
+			line-height: 0.7rem;
+		}
