@@ -262,3 +262,7 @@
 			color: white;
 			line-height: 0.7rem;
 		}
+		.footer>.gou>div>a{
+			text-decoration: none;
+			color: white;
+		}

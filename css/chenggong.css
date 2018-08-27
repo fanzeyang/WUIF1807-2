@@ -1,0 +1,69 @@
+		* {
+    		margin: 0;
+    		padding: 0;
+    		box-sizing: border-box;
+    	}
+    	.header {
+    		width: 100%;
+    		height: 10rem;
+    	}
+		.header>div:first-child>img {
+			width: 100%;
+			height: 10rem;
+		}
+		.header>div:nth-child(2)>p {
+			font-size: 0.26rem;
+			color: white;
+		}
+		.header>div:nth-child(2)>p:nth-child(2){
+			font-size: 0.5rem;
+		}
+		.header>div:nth-child(2) {
+			text-align: center;
+			width: 50%;
+			height: 20%;
+			position: absolute;
+			left: 25%;
+			top: 2rem;
+		}
+		.header>div:last-child {
+			width: 50%;
+			height: 25%;
+			position: absolute;
+			left: 25%;
+			top: 4rem;
+		}
+		.header>div:last-child>img {
+			width: 100%;
+			height: 100%;
+		}
+		.di{
+			padding: 0 1rem;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+		.di>.zuozuozuo>a {
+			text-decoration: none;
+			color: white;
+			font-size: 0.24rem;
+			line-height: 0.66rem;
+			text-align: center;
+			display: block;
+			width: 2rem;
+			background-color: #feb155;
+			border-radius: 0.25rem;
+			margin-top: 1rem;
+		}
+		.di>.youyouyou>a {
+			text-decoration: none;
+			color: white;
+			font-size: 0.24rem;
+			line-height: 0.66rem;
+			text-align: center;
+			display: block;
+			width: 2rem;
+			background-color: #feb155;
+			border-radius: 0.25rem;
+			margin-top: 1rem;
+		}

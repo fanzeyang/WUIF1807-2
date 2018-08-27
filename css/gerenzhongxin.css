@@ -1,0 +1,242 @@
+		* {
+    		margin: 0;
+    		padding: 0;
+    		box-sizing: border-box;
+    	}
+    	.header {
+    		width: 100%;
+    		height: 2.32rem;
+    		padding: 0.24rem;
+    		background-image:  linear-gradient(90deg, #4579ff 0%, #42fffd 100%);;
+    	}
+		.header>.wode {
+			width: 100%;
+			height: 30%;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+		.header>.wode>div:first-child>img {
+			height: 100%;
+			display: block;
+		}
+		.header>.wode>div:nth-child(3)>img {
+			height: 100%;
+			display: block;
+		}
+		.header>.wode>div:nth-child(2){
+			font-size: 0.3rem;
+			line-height: 0.7rem;
+			color: white;
+		}
+		.header>.touxiang {
+			width: 100%;
+			height: 70%;
+		}
+		.touxiang>div:first-child>img {
+			width: 100%;
+			height: 100%;
+			display: block;
+		}
+		.touxiang>div:first-child {
+			width: 0.9rem;
+			height: 100%;
+			padding-top: 0.4rem;
+			float: left;
+		}
+		.touxiang>div:last-child {
+			width: 83%;
+			height: 100%;
+			float: right;
+		}
+		.touxiang>div:last-child>div {
+			width: 100%;
+			height: 100%;
+			display: flex;
+			justify-content: space-between;
+		}
+		.touxiang>div:last-child>div>div:first-child{
+			width: 40%;
+			height: 100%;
+			padding-top: 0.4rem;
+		}
+		.touxiang>div:last-child>div>div:first-child>div:first-child{
+			font-size: 0.24rem;
+			color: white;
+		}
+		.touxiang>div:last-child>div>div:first-child>div:nth-child(2)>img {
+			display: block;
+			width: 20%;
+			height: 100%;
+			float: left;
+		}
+		.touxiang>div:last-child>div>div:first-child>div:nth-child(2)>div {
+			width: 80%;
+			height: 100%;
+			font-size: 0.18rem;
+			color: white;
+			float: right;
+			line-height: 0.5rem;
+		}
+		.touxiang>div:last-child>div>div:last-child {
+			padding-top: 0.6rem;
+		}
+		.touxiang>div:last-child>div>div:last-child>img {
+			width: 50%;
+			height: 50%;
+			display: block;
+		}
+		.qianbao {
+			width: 100%;
+			height: 1.06rem;
+			background-color: white;
+		}
+		.qianbao {
+			display: flex;
+			justify-content: center;
+		}
+		.qianbao>div:first-child {
+			width: 25%;
+			height: 100%;
+		}
+		.qianbao>div:first-child>div:first-child {
+			width: 100%;
+			height: 50%;
+			padding-top: 0.1rem;
+			font-size: 0.3rem;
+			color: dodgerblue;
+			text-align: center;
+		}
+		.qianbao>div:first-child>div:last-child{
+			width: 100%;
+			height: 50%;
+			text-align: center;
+			font-size: 0.24rem;
+			color: #737373;
+		}
+		.qianbao>div:nth-child(2) {
+			width: 25%;
+			height: 100%;
+		}
+		.qianbao>div:nth-child(2)>div:first-child {
+			width: 100%;
+			height: 50%;
+			padding-top: 0.1rem;
+			font-size: 0.3rem;
+			color: dodgerblue;
+			text-align: center;
+		}
+		.qianbao>div:nth-child(2)>div:last-child{
+			width: 100%;
+			height: 50%;
+			text-align: center;
+			font-size: 0.24rem;
+			color: #737373;
+		}
+		.qianbao>div:nth-child(3) {
+			width: 25%;
+			height: 100%;
+		}
+		.qianbao>div:nth-child(3)>div:first-child {
+			width: 100%;
+			height: 50%;
+			padding-top: 0.1rem;
+			font-size: 0.3rem;
+			color: dodgerblue;
+			text-align: center;
+		}
+		.qianbao>div:nth-child(3)>div:last-child{
+			width: 100%;
+			height: 50%;
+			text-align: center;
+			font-size: 0.24rem;
+			color: #737373;
+		}
+		.neirong {
+			width: 100%;
+			height: 9.5rem;
+			background-color: #e5e5e5;
+			padding-top: 0.24rem;
+			padding-left: 0.24rem;
+			padding-right: 0.24rem;
+		}
+		.list {
+			width: 100%;
+			height: 2.74rem;
+			background-color: white;
+			border-radius: 0.2rem;
+		}
+		.list>ul {
+			width: 100%;
+			height: 100%;
+			list-style: none;
+		}
+		.list>ul>li {
+			width: 100%;
+			height: 33.33%;
+			padding: 0.24rem;
+			border-bottom: 1px solid lightgrey;
+		}
+		.list>ul>li:nth-child(3){
+			border: none;
+		}
+		.list>ul>li>div {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+		.list>ul>li>div>div {
+			width: 80%;
+			color: #737373;
+			font-size: 0.24rem;
+		}
+		.list>ul>li>div>img:first-child {
+			width: 0.34rem;
+			height: 0.36rem;
+		}
+		.list>ul>li>div>img:last-child {
+			width: 0.1rem;
+			height: 0.2rem;
+			display: block;
+			margin-top: 0.1rem;
+		}
+		.neirong>div:nth-child(2){
+			margin-top: 0.24rem;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		.footer {
+			width: 100%;
+			height: 1.01rem;
+			background-color: white;
+			position: fixed;
+			bottom: 0;
+		}
+		.footer>ul {
+			width: 100%;
+			height: 1.01rem;
+			list-style: none;
+			text-align: center;
+		}
+		.footer>ul>li {
+			width: 25%;
+			height: 1.01rem;
+			float: left;
+		}
+		.footer>ul>li>a{
+			display: block;
+			text-decoration: none;
+		}
+		.footer>ul>li>a>img{
+			width: 0.42rem;
+			height: 0.61rem;
+			margin-bottom: 0.175rem;
+		}
